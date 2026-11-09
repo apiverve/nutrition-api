@@ -1,0 +1,16 @@
+name: apiverve_nutrition
+description: "Nutrition returns the nutrition facts for a generic whole food by name - calories and the core macronutrients per 100 grams straight from the USDA food composition database - plus, on paid plans, a full micronutrient panel and derived nutrition intelligence like calories per gram and the protein, fat and carbohydrate share of calories."
+version: 1.2.5
+homepage: https://apiverve.com/marketplace/nutrition?utm_source=dart&utm_medium=referral&utm_content=homepage
+repository: https://github.com/apiverve/nutrition-api/tree/main/dart
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  http: ^1.1.0
+  http_parser: ^4.0.0
+
+dev_dependencies:
+  lints: ^3.0.0
+  test: ^1.24.0
